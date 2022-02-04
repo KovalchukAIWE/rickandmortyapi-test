@@ -1,0 +1,72 @@
+.wrapper {
+  background-color: #cbff01;
+  height: 100vh;
+  background-image: url(../../img/portal.png);
+  background-repeat: no-repeat;
+  background-position: 5%;
+  background-size: 30%;
+}
+
+.header {
+  display: block;
+  text-align: center;
+  margin-bottom: 100px;
+  text-decoration: none;
+  color: #32435F;
+  font-size: 36px;
+}
+
+.card {
+  padding: 8px;
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  color: currentColor;
+
+  &__dead,
+  &__alive,
+  &__unknown {
+    position: absolute;
+    top: 67px;
+    right: 17px;
+    padding: 5px;
+    border-radius: 8px;
+  }
+
+  &__dead {
+    background-color: rgb(238, 77, 77);
+  }
+
+  &__alive {
+    background-color: rgb(89, 218, 89);
+  }
+
+  &__unknown {
+    background-color: grey;
+  }
+
+  &__title {
+    font-weight: bold;
+  }
+}
+
+.back {
+  width: 80px;
+  height: 30px;
+  border: 1px solid #32435F;
+  color: #32435F;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 3px;
+
+  &:hover {
+    color: #E1DCD9;
+    background-color: #32435F;
+    transition: all 0.3s ease;
+  }
+}

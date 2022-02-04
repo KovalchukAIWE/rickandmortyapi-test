@@ -1,0 +1,28 @@
+.pagination {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 50px 0;
+
+  &__active {
+    width: 20px;
+    height: 20px;
+    background: #A67F78;
+    border: 1px solid rgb(131, 126, 126);
+  }
+
+  &__item,
+  &__next,
+  &__prev {
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgb(131, 126, 126);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+}

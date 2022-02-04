@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+}
+
+.list {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3px;
+  text-decoration: none;
+  color: #32435F;
+  &:hover {
+    background-color: #A67F78;
+    border-radius: 0 5px 5px 0;
+  }
+
+  &__dead,
+  &__alive,
+  &__unknown {
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    width: 56px;
+  }
+
+  &__dead {
+    background-color: rgb(238, 77, 77);
+  }
+
+  &__alive {
+    background-color: rgb(89, 218, 89);
+  }
+
+  &__unknown {
+    background-color: grey;
+  }
+}
+
+.likes {
+  text-align: left;
+  color: #32435F;
+}

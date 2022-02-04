@@ -1,0 +1,36 @@
+@import '../styles/resets.scss';
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-image: url(../img/rick-morty.png), url(../img/rick-&-morty.png);
+  background-repeat: no-repeat;
+  background-position: 5%, 100%;
+  background-size: 30%, 30%;
+  background-color: #cbff01;
+  color: #32435F;
+}
+
+.list,
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 640px;
+}
+
+.list {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.header {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: currentColor;
+  font-size: 36px;
+}
